@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+}
+
+.div1{
+    display: flex;
+    text-align: center;
+    background-color: #d9d9d9;
+    width: 100%;
+}
+
+h2{
+    font-size: 24px;
+    font-family: Jura;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.r{
+    width: 600px;
+}
+
+img{
+    border-radius: 30px;
+    margin: 30px;
+    height: 322px;
+}
+
+.div{
+    opacity: 0.3;
+}
+
+.div:hover{
+    opacity: 1;
+    transition: 2s;
+}
+
+.href{
+    border-radius: 15%;
+    padding: 5px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px 0 black;
+    background-color: #d9d9d9;
+}
+
+.href:hover{
+    box-shadow: 2px 2px 5px 0 black;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
